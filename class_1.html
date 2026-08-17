@@ -11,7 +11,7 @@
 </head>
 <body>
        <header>
-            <div class="logo"><!-- el atributo class permite cambiar estilos -->
+            <div class="logo">
                <h1>Club de Videos</h1>
             </div>
             <nav>
@@ -66,6 +66,14 @@
                     <div>
                         <label for="nombre">Nombre</label>
                         <input type="text" id="nombre" name="nombre" required minlength="3">
+                    </div>
+                    <div>
+                        <label for="genero">Genero</label>
+                        <select id="genero" name="genero" required>
+                            <option value="">Seleccionar</option>
+                            <option value="hombre">Hombre</option>
+                            <option value="mujer">Mujer</option>
+                        </select>
                     </div>
                     <div>
                         <label for="email">email</label>
